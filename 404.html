@@ -4,9 +4,11 @@
   <meta charset="utf-8">
   <title>Monklab</title>
   <script>
-    sessionStorage.redirect = location.href;
+    // SPA routing hack for GitHub Pages
+    // Redirect all 404s to index.html with path in sessionStorage
+    sessionStorage.redirect = location.pathname + location.search + location.hash;
   </script>
-  <meta http-equiv="refresh" content="0;URL='/monklab/'">
+  <meta http-equiv="refresh" content="0;URL='./index.html'">
 </head>
 <body></body>
 </html>
