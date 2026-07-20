@@ -99,7 +99,7 @@ export function Products() {
               className="group relative"
             >
               {/* Card */}
-              <div className="relative h-full p-4 sm:p-6 lg:p-8 rounded-2xl sm:rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-xl overflow-hidden transition-all duration-500 hover:border-white/20 hover:bg-white/[0.06]">
+              <div className="relative h-full p-4 sm:p-6 lg:p-8 rounded-2xl sm:rounded-3xl border border-white/10 bg-white/3 backdrop-blur-xl overflow-hidden transition-all duration-500 hover:border-white/20 hover:bg-white/6">
                 {/* 3D Scene - Hidden on mobile, visible on larger screens */}
                 <div className="hidden sm:block absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 z-0 opacity-60">
                   <Canvas

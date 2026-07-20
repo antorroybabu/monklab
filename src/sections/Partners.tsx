@@ -42,8 +42,8 @@ export function Partners() {
         transition={{ duration: 0.5, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
         className="mt-8 border border-white/10 overflow-hidden relative w-full rounded-lg"
       >
-        <div className="absolute left-0 top-0 bottom-0 w-20 z-10 bg-gradient-to-r from-black to-transparent" />
-        <div className="absolute right-0 top-0 bottom-0 w-20 z-10 bg-gradient-to-l from-black to-transparent" />
+        <div className="absolute left-0 top-0 bottom-0 w-20 z-10 bg-linear-to-r from-black to-transparent" />
+        <div className="absolute right-0 top-0 bottom-0 w-20 z-10 bg-linear-to-l from-black to-transparent" />
         <div className="flex gap-12 py-4 px-20 overflow-hidden whitespace-nowrap justify-center">
           {partnerLogos.map((name) => (
             <span key={name} className="text-white/40 font-medium text-base">{name}</span>

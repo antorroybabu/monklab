@@ -116,7 +116,7 @@ function PressCard({ item, index }: { item: (typeof pressItems)[0]; index: numbe
       }}
     >
       <div
-        className="flex flex-col min-h-[10.25rem] p-5 text-left overflow-hidden border border-transparent rounded-2xl backdrop-blur-sm transition-all duration-200"
+        className="flex flex-col min-h-41 p-5 text-left overflow-hidden border border-transparent rounded-2xl backdrop-blur-sm transition-all duration-200"
         style={{
           background: 'linear-gradient(180deg, rgba(27,27,27,0.8), rgba(31,31,31,0.8))',
           boxShadow: 'inset 0 0.0625rem rgba(255,255,255,0.08), 0 1.5rem 4rem rgba(0,0,0,0.32)',
